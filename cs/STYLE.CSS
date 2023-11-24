@@ -298,4 +298,27 @@
   
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
   }
-    
+  footer {
+    text-align: center;
+    padding-top: 3rem;
+    margin: 3rem 0;
+    color: var(--grey);
+  }
+  
+  footer p {
+    margin-bottom: 0.25rem;
+    font-size: 1rem;
+  }
+  
+  footer ul {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  footer li a {
+    text-decoration: underline;
+    color: var(--blue);
+  }  
