@@ -183,4 +183,15 @@
     padding: 0 15px 0 15px;
     order: 2;
   }
-    
+  .cart-header {
+    color: var(--grey);
+    font-weight: 500;
+    line-height: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cart-header h2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  } 
