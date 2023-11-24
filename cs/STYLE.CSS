@@ -346,3 +346,23 @@
         flex-direction: column;
         gap: 0;
       }
+      .cc-details {
+        width: 100%;
+        padding: 0;
+      }
+    
+      .cart {
+        order: 1;
+        max-width: 100%;
+      }
+    }
+    
+    @media (max-width: 450px) {
+      #date {
+        font-size: 0.5rem;
+      }
+    
+      .checkbox-container {
+        font-size: 0.8rem;
+      }
+    }
