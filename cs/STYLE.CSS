@@ -58,4 +58,21 @@
     font-size: 1.25rem;
     font-weight: 300;
   }    
+  .form {
+    position: relative;
+    padding: 0 15px 0 15px;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+    order: 1;
+  }
+  
+  #date {
+    background-color: var(--light);
+    color: var(--dark-grey);
+    border: 1px solid var(--light);
+    border-radius: 0.25rem;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    width: 100%;
+  }
   
