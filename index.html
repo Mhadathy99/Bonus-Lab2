@@ -107,7 +107,30 @@
               <label class="custom-control-label" for="paypal">PayPal</label>
           </div>
         </div>  
+        <div class="two-input-container">
+            <div class="one-row half-size-input">
+              <label for="cc-name">Name on card</label>
+              <input type="text" name="cc-name" id="cc-name" required>
+              <span>Full name as displayed on card</span>
+            </div>
+            <div class="one-row half-size-input">
+              <label for="cc-number">Credit card number</label>
+              <input type="text" name="cc-number" id="cc-number" required>
+            </div>
+          </div>
+          <div class="two-input-container cc-details">
+            <div class="one-row">
+              <label for="expiration">Expiration</label>
+              <input type="text" name="expiration" id="expiration" required>
+            </div>
+            <div class="one-row">
+              <label for="cvv">CVV</label>
+              <input type="text" name="cvv" id="cvv" required>
+            </div>
+        </div>
 
+        <hr>
+          
 
 </body>
 </html>
