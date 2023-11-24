@@ -28,3 +28,18 @@
   .logo-div img {
     width: 300px;
   }
+  .logo-div {
+    padding-bottom: 24px;
+    display: flex;
+    justify-content: center;
+  }
+  header {
+    text-align: center;
+    padding: 48px 0 48px;
+  }
+  h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 8px;
+  }
+    
