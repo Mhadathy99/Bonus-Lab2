@@ -90,3 +90,31 @@
     border-radius: 0.25rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
   }
+  .two-input-container {
+    display: flex;
+    margin-bottom: 1rem;
+    gap: 1.875rem;
+    justify-content: space-between;
+  }
+  
+  .two-input-container span {
+    font-size: 80%;
+    font-weight: 400;
+    color: var(--grey);
+  }
+  
+  .half-size-input {
+    width: 100%;
+  }
+  .one-row {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  
+  .one-row span {
+    color: var(--grey);
+  }
+  
