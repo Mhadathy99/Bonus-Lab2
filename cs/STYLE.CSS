@@ -228,4 +228,74 @@
     border-radius: 0 0 0.25rem 0.25rem ;
     margin-bottom: 1rem
   }
+  .cart-prod-name {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
   
+  .cart-prod-name span {
+    font-size: 80%;
+    font-weight: 400;
+    color: var(--grey);
+  }
+  
+  .price {
+    color: var(--grey);
+    font-weight: 400;
+  }
+  
+  .promo-code, .promo-code span, .promo-code .price {
+    color: var(--green);
+  }
+  .price-total {
+    font-weight: bolder;
+  }
+  
+  .total {
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    font-weight: 400;
+  }
+  
+  .promo-code-btn {
+    line-height: 1.5rem;
+  
+    background-color: var(--white);
+    border-radius: 0.25rem;
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 0.5rem;
+  
+    display: flex;
+    justify-content: center;
+  
+    align-items: stretch;
+    width: 100%;
+  }
+  .promo-code-btn input {
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem 0 0 0.25rem;
+    padding: 0.375rem 0.75rem;
+    overflow: visible;
+    width: 100%;
+    max-width: 75%;
+  
+    font-size: 1rem;
+    
+  }
+  
+  .promo-code-btn button {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    cursor: pointer;
+    color: #fff;
+    background-color: var(--grey);
+    border-color: var(--grey);
+    padding: 0.375rem 0.75rem;
+    border-radius: 0 0.25rem 0.25rem 0;
+    border: 1px solid var(--grey);
+    width: 40%;
+  
+  
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+    
