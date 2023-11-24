@@ -25,4 +25,6 @@
     text-align: left;
     background-color: var(--background-color);
   }   
-  
+  .logo-div img {
+    width: 300px;
+  }
