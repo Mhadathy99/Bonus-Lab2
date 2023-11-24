@@ -321,4 +321,28 @@
   footer li a {
     text-decoration: underline;
     color: var(--blue);
-  }  
+  }
+  @media (max-width: 785px) {
+    header {
+      padding: 0 1rem;
+    }
+  
+    .form-container {
+      flex-direction: column;
+      align-content: center;
+      padding: 0 1rem;
+    }
+  
+    .form {
+      order: 2;
+      max-width: 100%;
+      margin-top: 1.5rem;
+    }
+    #date {
+        font-size: 0.8rem;
+        text-wrap: nowrap;
+      }
+      .two-input-container, .three-row {
+        flex-direction: column;
+        gap: 0;
+      }
